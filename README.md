@@ -1,1 +1,3 @@
 # admin-dashboard
+
+The purpose of this admin dashboard projecrt is to learn how to make a functional layout for a webpage using both flexbox and grid, though primarily grid. I hope to make a responsive and easy to read dashboard using what I've learned over the previous lessons. I hope to use the open-endedness of the project to work on my ability to start with a vague idea and end up with a tangible webpage of my own design.
