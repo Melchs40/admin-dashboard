@@ -1,8 +1,9 @@
 /* code for the overall page */
 .container {
     display: grid;
-    grid-template-columns: 200px 4fr 1fr;
-    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: 150px 4fr 1fr;
+    grid-template-rows: 100px 2fr 2fr;
+    background-color: lightgreen;
 }
 /* code for page sidebar*/
 .sidebar {
@@ -40,10 +41,8 @@
 .project-list {
     display: grid;
     grid-area: 2 / 2 / 4 / 3;
-    gap: 1rem;
-    padding: 1rem;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, minmax(100px, 1fr));
 }
 
 .projects {
@@ -55,21 +54,19 @@
 .announcement-list {
     display: grid;
     grid-area: 2 / 3 / 3 / 4;
-    gap: 1rem;
-    margin: 1rem;
-
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .announcements {
     background-color: yellow;
-    padding: 1rem;
 }
 
 .trending-list {
     display: grid;
     grid-area: 3 / 3 / 4 / 4;
-    gap: 1rem;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .trending {
