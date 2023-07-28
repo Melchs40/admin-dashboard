@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Tilt+Neon&display=swap');
+
+body {
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+}
+
 /* code for the overall page */
 .container {
     display: grid;
