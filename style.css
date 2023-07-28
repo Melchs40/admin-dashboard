@@ -3,12 +3,12 @@
     display: grid;
     grid-template-columns: 150px 4fr 1fr;
     grid-template-rows: 100px 2fr 2fr;
-    background-color: lightgreen;
+    background-color: #00b4d8;
 }
 /* code for page sidebar*/
 .sidebar {
     display: grid;
-    background-color: aqua;
+    background-color: #0077b6;
     grid-area: 1 / 1 / 4 / 2;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr 2fr;
@@ -19,6 +19,7 @@
     justify-self: center;
     align-self: start;
     padding: 2rem;
+    color: #caf0f8;
 }
 
 #main-buttons {
@@ -37,11 +38,12 @@
     border:none;
     background-color:transparent;
     outline:none;
+    color: #caf0f8;
 }
 
 /* code for header of the page */
 .header {
-    background-color: blueviolet;
+    background-color: #b6d5e1;
     grid-area: 1 / 2 / 2 / 4;
     display: grid;
     grid-template-columns: 4fr repeat(3, 1fr);
@@ -79,9 +81,12 @@
 }
 
 #user-buttons button {
+    color: #caf0f8;
     border:none;
-    background-color:transparent;
+    background-color:#03045e;
     outline:none;
+    border-radius: 60px;
+    margin: 10px;
 }
 
 /* code for the main content of the page */
@@ -93,10 +98,10 @@
 }
 
 .projects {
-    background-color: red;
+    background-color: #caf0f8;
     margin: 1rem;
     padding: 1rem;
-    border-left: 3px solid black;
+    border-left: 3px solid #03045e;
     border-radius: 10px;
 }
 
@@ -106,14 +111,14 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 10px;
-    background-color: yellow;
+    background-color: #90e0ef;
 }
 
 .announcements {
     margin: 1rem;
     align-self: center;
     padding-top: 1rem;
-    border-top: 1px dotted black;
+    border-top: 1px dotted #03045e;
 }
 
 .trending-list {
@@ -122,12 +127,12 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 10px;
-    background-color: orange;
+    background-color: #90e0ef;
 }
 
 .trending {
     margin: 1rem;
     padding-top: 1rem;
     align-self: center;
-    border-top: 1px dotted black;
+    border-top: 1px dotted #03045e;
 }
