@@ -121,7 +121,13 @@ body {
     grid-template-rows: repeat(2, 1fr);
 }
 
-#search-bar {
+#search-bar:after {
+    position: absolute;
+    font-family: "Material Icons";
+    content: "\e8b6";
+    font-size: 26px;
+    top: 25px;
+    margin-left: 10px;
 }
 
 #search-bar input {
