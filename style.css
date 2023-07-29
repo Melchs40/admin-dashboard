@@ -59,57 +59,74 @@ body {
 }
 
 #home-button:before {
+    position: relative;
     font-family: "Material Icons";
     content: "\e88a";
     margin-right: 1rem;
+    top: 2px;
 }
 
 #profile-button:before {
+    position: relative;
     font-family: "Material Icons";
     content: "\e7fd";
     margin-right: 1rem;
+    top: 2px;
 }
 
 #tasks-button:before {
+    position: relative;
     font-family: "Material Icons";
     content: "\f075";
     margin-right: 1rem;
+    top: 2px;
 }
 #history-button:before {
-
+    position: relative;
     font-family: "Material Icons";
     content: "\e889";
     margin-right: 1rem;
+    top: 2px;
 }
 
 #messages-button:before {
+    position: relative;
     font-family: "Material Icons";
     content: "\e0b7";
     margin-right: 1rem;
+    top: 2px;
 }
 
 #communities-button:before {
+    position: relative;
     font-family: "Material Icons";
     content: "\e0bf";
     margin-right: 1rem;
+    top: 2px;
 }
 
 #settings-button:before {
+    position: relative;
     font-family: "Material Icons";
     content: "\e8b8";
     margin-right: 1rem;
+    top: 2px;
 }
 
 #support-button:before {
+    position: relative;
     font-family: "Material Icons";
     content: "\ef73";
     margin-right: 1rem;
+    top: 2px;
 }
 
 #privacy-button:before {
+    position: relative;
     font-family: "Material Icons";
     content: "\ef3d";
     margin-right: 1rem;
+    top: 2px;
 }
 
 /* code for header of the page */
