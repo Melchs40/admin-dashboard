@@ -29,6 +29,12 @@ body {
     color: #caf0f8;
 }
 
+#logo:before {
+    font-family: "Material Icons";
+    content: "\ef3d";
+    font-size: 72px;
+}
+
 #main-buttons {
     display: grid;
     grid-template-columns: 1fr;
