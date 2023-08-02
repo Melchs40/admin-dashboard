@@ -21,7 +21,7 @@ body {
     grid-area: 1 / 1 / 4 / 2;
     grid-template-columns: 1fr;
     grid-template-rows: 100px 200px 100px 2fr;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 #logo {
@@ -61,6 +61,10 @@ body {
     outline:none;
     color: #caf0f8;
 }
+
+ #main-buttons button:hover, #page-buttons button:hover {
+    color: #00b4d8;
+ }
 
 #home-button:before {
     position: relative;
@@ -151,6 +155,10 @@ body {
     margin-left: 10px;
 }
 
+#search-bar:hover::after {
+    color: #00b4d8;
+}
+
 #search-bar input {
     width: 80%;
     text-align: center;
@@ -168,6 +176,7 @@ body {
     display: flex;
     margin-top: .5rem;
     justify-content: end;
+    margin-right: 1rem;
 }
 
 #user-profile {
@@ -214,7 +223,7 @@ font-family: "Material Icons";
 
 #user-welcome {
     justify-self: center;
-    margin-left: -11.4rem;
+    margin-left: -11.3rem;
 }
 
 #user-buttons {
@@ -232,12 +241,26 @@ font-family: "Material Icons";
     margin: 10px;
 }
 
+#user-buttons button:hover {
+    background-color: #00b4d8;
+}
+
 /* code for the main content of the page */
 .project-list {
     display: grid;
     grid-area: 2 / 2 / 4 / 3;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
-    grid-template-rows: repeat(2, minmax(200px, 1fr));
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-rows: repeat(3, minmax(200px, 1fr));
+    margin-top: 35px;
+}
+
+#project-title {
+    grid-area: 2 / 2 / 4 / 3;
+    position: relative;
+    top: 10px;
+    margin-left: 1rem;
+    font-size: 20px;
+    left: 1rem;
 }
 
 .projects {
@@ -246,6 +269,16 @@ font-family: "Material Icons";
     padding: 1rem;
     border-left: 3px solid #03045e;
     border-radius: 10px;
+    padding-bottom: 3rem;
+}
+
+.projects:after {
+    display: grid;
+    font-family: "Material Icons";
+    content: "\e87c" "\ef3d";
+    position: relative;
+    justify-content: end;
+    top: 30px;
 }
 
 .announcement-list {
@@ -255,6 +288,17 @@ font-family: "Material Icons";
     margin-bottom: 1rem;
     border-radius: 10px;
     background-color: #90e0ef;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+#announcement-title {
+    grid-area: 2 / 3 / 3 / 4;
+    position: relative;
+    font-size: 20px;
+    top: 10px;
+    margin-left: 1rem;
+
 }
 
 .announcements {
@@ -271,6 +315,16 @@ font-family: "Material Icons";
     margin-bottom: 1rem;
     border-radius: 10px;
     background-color: #90e0ef;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+#trending-title {
+    grid-area: 3 / 3 / 4 / 4;
+    position: relative;
+    font-size: 20px;
+    top: 10px;
+    margin-left: 1rem;
 }
 
 .trending {
