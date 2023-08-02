@@ -334,3 +334,12 @@ font-family: "Material Icons";
     align-self: center;
     border-top: 2px dotted #03045e;
 }
+
+/* code for footer of page */
+
+.footer {
+    display: flex;
+    background-color: #90e0ef;
+    justify-content: center;
+    padding: 1rem;
+}
