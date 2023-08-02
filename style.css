@@ -264,21 +264,22 @@ font-family: "Material Icons";
 }
 
 .projects {
+    display: grid;
     background-color: #caf0f8;
     margin: 1rem;
     padding: 1rem;
     border-left: 3px solid #03045e;
     border-radius: 10px;
-    padding-bottom: 3rem;
 }
 
 .projects:after {
-    display: grid;
     font-family: "Material Icons";
-    content: "\e87c" "\ef3d";
+    content: "\e885" "\35" "\f092" "\35" "\e80d";
     position: relative;
-    justify-content: end;
-    top: 30px;
+    justify-self: end;
+    align-self: end;
+    font-size: 20px;
+    padding: 1rem;
 }
 
 .announcement-list {
@@ -305,7 +306,7 @@ font-family: "Material Icons";
     margin: 1rem;
     align-self: center;
     padding-top: 1rem;
-    border-top: 1px dotted #03045e;
+    border-top: 2px dotted #03045e;
 }
 
 .trending-list {
@@ -331,5 +332,5 @@ font-family: "Material Icons";
     margin: 1rem;
     padding-top: 1rem;
     align-self: center;
-    border-top: 1px dotted #03045e;
+    border-top: 2px dotted #03045e;
 }
